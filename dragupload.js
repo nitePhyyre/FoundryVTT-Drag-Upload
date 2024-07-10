@@ -229,7 +229,7 @@ async function CreateTile(event, file, overhead) {
 
     const data = CreateImgData(event, response);
 
-    const tex = await loadTexture(data.img);
+    const tex = await loadTexture(data.texture.src || data.img);
     const ratio = canvas.dimensions.size / (data.tileSize || canvas.dimensions.size);
     data.width = tex.baseTexture.width * ratio;
     data.height = tex.baseTexture.height * ratio;
@@ -427,7 +427,8 @@ async function CreateActorWithType(event, data, tokenImageData, type) {
 
 function CreateImgData(event, response) {
     const data = {
-        img: response.path
+        img: response.path,
+        texture: {src: response.path}
     };
 
     convertXYtoCanvas(data, event);

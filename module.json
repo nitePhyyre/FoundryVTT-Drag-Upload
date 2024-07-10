@@ -3,15 +3,15 @@
   "id": "dragupload",
   "title": "Drag Upload (Get Over Here!)",
   "description": "Adds the ability to drag files onto Foundry to automatically create Tokens, Tiles, Journal Pins, and Ambient Audio",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "11",
+  "compatibleCoreVersion": "12",
   "compatibility" : {
     "minimum" : "9",
-    "verified" : "11"
+    "verified" : "12"
   },
   "author": "Cody Swendrowski <cody@swendrowski.us>",
-  "authors": [ { "name" : "Cody Swendrowski <cody@swendrowski.us>"},  { "name" : "Amir Arad <greenshade@gmail.com>"}, { "name" : "Ratren <rafa.lenart12@gmail.com>"} ],
+  "authors": [ { "name" : "Cody Swendrowski <cody@swendrowski.us>"},  { "name" : "Amir Arad <greenshade@gmail.com>"}, { "name" : "Ratren <rafa.lenart12@gmail.com>"}, { "name" : "nitePhyyre <https://github.com/nitePhyyre/>"} ],
   "esmodules": [
     "./dragupload.js"
   ],
@@ -21,7 +21,7 @@
   ],
   "languages": [
   ],
-  "url": "https://github.com/Ratren/FoundryVTT-Drag-Upload",
-  "manifest": "https://github.com/Ratren/FoundryVTT-Drag-Upload/releases/download/latest/module.json",
-  "download": "https://github.com/Ratren/FoundryVTT-Drag-Upload/releases/download/latest/module.zip"
+  "url": "https://github.com/nitePhyyre/FoundryVTT-Drag-Upload",
+  "manifest": "https://github.com/nitePhyyre/FoundryVTT-Drag-Upload/releases/download/latest/module.json",
+  "download": "https://github.com/nitePhyyre/FoundryVTT-Drag-Upload/releases/download/latest/module.zip"
 }
